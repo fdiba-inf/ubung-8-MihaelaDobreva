@@ -9,5 +9,6 @@ public class Utils {
 
     public static boolean equals(double x, double y) {
         return Math.abs(x - y) < EPSILON;
+
     }
 }
